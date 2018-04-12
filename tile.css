@@ -1,0 +1,57 @@
+.tiles-wrapper{
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+.tile{
+    max-width: 450px; 
+    display: flex;
+    flex-direction: column;
+    margin: 0 .5rem 2.5rem .5rem;
+}
+
+.cover{
+    border-radius: 6px;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 980px){
+    .tile{
+        flex-direction: row;
+        max-width: 100%;
+        margin: 0 0 2.5rem 0;
+    }
+
+    .tile-text{
+        margin-left: 1rem;
+    }
+
+    .cover{
+        margin:0;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .tile{
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 0 2.5rem 0;
+    }
+
+    .tile-text{
+        margin-left: 0;
+    }
+
+    .cover{
+        margin:0;
+    }
+}

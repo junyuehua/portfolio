@@ -1,0 +1,28 @@
+html{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p{
+    margin: 0;
+}
+
+h1{
+    font-size: 2em;
+    line-height: 175%;
+    text-transform: capitalize;
+}
+
+.title{
+    margin-bottom: .25rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+p{
+    line-height: 175%;
+}
